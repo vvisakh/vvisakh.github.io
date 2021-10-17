@@ -3,11 +3,11 @@ div{
     padding: 8px;
 }
 h1{
-    text-align: top left;
+    text-align: left;
     text-transform: uppercase;
     color: #0d7e9b;
 }
 h6 {
-    text-align: top right;
+    text-align: right;
     color: #2f3638e7;
 }
