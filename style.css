@@ -1,13 +1,6 @@
-div {
-    border: 1px solid gray;
-    padding: 8px;
+h1{
+    color: blue;
 }
-h1 {
-    text-align: left;
-    text-transform: uppercase;
-    color: #0d7e9b;
-}
-h6 {
-    text-align: right;
-    color: #2f3638e7;
+h6{
+    color: chartreuse;
 }
