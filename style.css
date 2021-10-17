@@ -1,4 +1,6 @@
-div {
+div
+#contact
+ {
     border: 1px solid gray;
     padding: 8px;
 }
