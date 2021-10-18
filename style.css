@@ -11,3 +11,8 @@ p {
     text-align: right;
     color: #4e4f50;
 }
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4e4f50;
+  }
