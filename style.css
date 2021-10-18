@@ -16,3 +16,6 @@ h3 {
     text-transform: uppercase;
     color: #4e4f50;
   }
+.center {
+    text-align: center;
+}
