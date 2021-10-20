@@ -92,7 +92,6 @@ h3 {
     top: 70em;
     background-color: rgb(223, 223, 223);
 }
-{
    table, td, th 
  {
   border: 1px solid black;
@@ -133,7 +132,6 @@ h3 {
     top: 70em;
     background-color: rgb(223, 223, 223);
  }
-}
 #example8
 {
     position: fixed;
