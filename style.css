@@ -54,7 +54,7 @@ h3 {
 }
 #example3
 {
-    position: fixed;
+    position: absolute;
     /* center the div */
     right: 0;
     left: 0;
