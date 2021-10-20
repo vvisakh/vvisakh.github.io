@@ -22,7 +22,7 @@
     margin-right: auto;
     margin-left: auto;
     /* give it dimensions */
-    min-height: 80em;
+    min-height: 10em;
     width: 75%;
     /* just for example presentation */
     top: 25em;
@@ -59,6 +59,6 @@ h3 {
     min-height: 10em;
     width: 75%;
     /* just for example presentation */
-    top: 37em;
+    top: 40em;
     background-color: rgb(223, 223, 223);
 }
