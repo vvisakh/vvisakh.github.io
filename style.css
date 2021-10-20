@@ -45,27 +45,6 @@ ul {
 li {
     display: table-row;
 }  
-c {
-    font-family: Roboto, Century Gothic, sans-serif;
-
-    color: rgb(170, 62, 147);
-    display: table-cell;
-    padding-right: 1em;
-}
-d {
-    /*font-family: Arial, Helvetica, sans-serif;*/
-    color: rgb(150, 150, 150);
-    display: table-cell;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-e {
-    /*font-family: Arial, Helvetica, sans-serif;*/
-    color: rgb(150, 150, 150);
-    display: table-cell;
-    padding-left: 1em;
-    padding-right: 1em;
-}
 h3 {
     
     color: rgb(170, 62, 147);
