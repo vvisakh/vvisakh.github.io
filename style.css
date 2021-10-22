@@ -164,6 +164,6 @@ td { display:table-cell;
       }
       
       .topnav a.active {
-        background-color: rgb(219, 60, 60);
+        background-color: #dd1515da;
         color: white;
       }
