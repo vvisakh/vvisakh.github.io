@@ -90,10 +90,10 @@ table, th {
     /*width: 100%;*/
     /*border-collapse: collapse;
     /*display: table-cell;
-    /*width: 100%; /* or 100% according to OP comment. See edit about Safari 6 below */
+    /*width: 100%;*/
   }
 th { color: rgb(138, 138, 138);
-    background-color: #8536854d; }
+    background-color: #b14f324d; }
 td { display:table-cell;
     width:100px;
     text-align: center
