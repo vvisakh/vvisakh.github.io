@@ -101,10 +101,10 @@ td { display:table-cell;
  }
     /*adding an image gallery. Source:-https://www.w3schools.com/css/css_image_gallery.asp*/
     div.gallery {
-        border: 1px solid #ccc;
+        border: 1px solid #ccc;/*adds an border of 1px around the images*/
       }
       
-      div.gallery:hover {
+      div.gallery:hover {/*hovers the gallery*/
         border: 1px solid #777;
       }
       
@@ -121,7 +121,7 @@ td { display:table-cell;
       * {
         box-sizing: border-box;
       }
-      
+      /*makes the gallery adaptive to the current screen size the webpage is being viewed*/
       .responsive {
         padding: 0 6px;
         float: left;
