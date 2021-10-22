@@ -1,176 +1,79 @@
-#example
-{
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 50em;
-    width: 75%;
-    /* just for example presentation */
-    top: 5em;
-    background-color: rgb(189, 189, 189);
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-moz-tap-highlight-color: rgba(0, 0, 0, 0);
+	/* font-family: "Roboto Mono", monospace; */
 }
-#example2
-{
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 10em;
-    width: 75%;
-    /* just for example presentation */
-    top: 25em;
-    background-color: rgb(223, 223, 223);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+	--background-color: rgb(240, 240, 240);
+	--primary-text: black;
+	--seccondary-text: rgb(58, 58, 58);
+	--accent-color: rgb(219, 60, 60);
+	--accent-color-dark: rgb(180, 47, 47);
 }
-.how-right img {
-    float:left;
-    margin-right:20px;
-    vertical-align:middle;
-}
-ul {
-    list-style: none;
-    display: table;
+@font-face {
+	font-family: leaguegothic;
+	src: url(assets/League-Gothic/LeagueGothic-Regular.otf);
   }
-li {
-    display: table-row;
-}  
+body {
+	margin-top: 5vh;
+	margin-left: 10vh;
+	margin-right: 10vh;
+	background-color: var(--background-color);
+}
+section {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+img {
+	border-radius: 60px;
+}
+#summary{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#summary>ul>li{
+	display: flex;
+	align-items: center;
+}
+#contact {
+	list-style-type:none;
+	margin: 50px;
+}
+section>ul>li{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.period {
+	color: var(--seccondary-text);
+	padding-left: 10px;
+}
+h1 {
+	font-family: leaguegothic;
+	font-size: 60px;
+	text-decoration: underline;
+	text-decoration-color: var(--accent-color);
+	text-decoration-thickness: 10px;
+}
+h2 {
+	font-family: leaguegothic;
+	font-size: 30px;
+	text-decoration: underline;
+	text-decoration-color: var(--accent-color);
+	text-decoration-thickness: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 h3 {
-    
-    color: rgb(170, 62, 147);
-    
-    padding-left: 2em;
-    padding-right: 1em;
-}
-#example3
-{
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 10em;
-    width: 75%;
-    /* just for example presentation */
-    top: 40em;
-    background-color: rgb(223, 223, 223);
-}
-#example4
-{
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 10em;
-    width: 75%;
-    /* just for example presentation */
-    top: 60em;
-    background-color: rgb(223, 223, 223);
-}
-#example5
-{
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 10em;
-    width: 75%;
-    /* just for example presentation */
-    top: 70em;
-    background-color: rgb(223, 223, 223);
-}
-table, th {
-    
-    border: 1px solid black;
-  }
-  table {
-    display:table;
-    width:100%;
-    table-layout:fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    /*/*width: 250px;*/
-    /*table-layout: fixed;
-    /*width: 100%;*/
-    /*border-collapse: collapse;
-    /*display: table-cell;
-    /*width: 100%; /* or 100% according to OP comment. See edit about Safari 6 below */
-  }
-th { color: rgb(138, 138, 138);
-    background-color: #8536854d; }
-td { display:table-cell;
-    width:100px;
-    text-align: center
-    /*border:solid black 1px;*/ }
- #example6
- {
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 10em;
-    width: 75%;
-    /* just for example presentation */
-    top: 70em;
-    background-color: rgb(223, 223, 223);
- }
- #example7
- {
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 10em;
-    width: 75%;
-    /* just for example presentation */
-    top: 70em;
-    background-color: rgb(223, 223, 223);
- }
-#example8
-{
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 10em;
-    width: 75%;
-    /* just for example presentation */
-    top: 70em;
-    background-color: rgb(223, 223, 223);
-}
-#example9
-{
-    position: fixed;
-    /* center the div */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    /* give it dimensions */
-    min-height: 10em;
-    width: 75%;
-    /* just for example presentation */
-    top: 70em;
-    background-color: rgb(223, 223, 223);
+	font-family: leaguegothic;
+	font-size: 25px;
 }
